@@ -29,23 +29,7 @@ In terminal, navigate to MOFES folder, then:
 ```
 conda create -n mofes-env python=3.12
 conda activate mofes-env
-
-# Core FEniCSx + MPI + Visualization
-conda install -c conda-forge \
-  fenics-dolfinx \
-  mpich \
-  petsc4py \
-  mpi4py \
-  pyvista \
-  matplotlib \
-  opencv \
-  netcdf4 \
-  scipy \
-  pandas \
-  xarray \
-  ipyparallel \
-  scikit-learn \
-  pytest
+conda install -c conda-forge fenics-dolfinx mpich petsc4py mpi4py pyvista matplotlib opencv netcdf4 scipy pandas xarray ipyparallel scikit-learn 
 
 ```
 
@@ -60,12 +44,13 @@ And you can test if everything is installed successfully by running the followin
 python -c "import mofes; print('MOFES loaded successfully')"
 ```
 
-### Optional: 4. running tests
-```
-pytest tests/
-```
+## Prepare Input Files
 
-## Examples
+**Stagnated water netCDF files** Go to /kalpana-dependent directory and follow the instruction in its README.md
+
+**Surface Wind Field**  Go to [ERA5 Reanalysis Product](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview) to download 10 m u-component of wind and 10 m v-component of wind.
+
+## MOFES Example
 
 You can find one example of a 4-day simulation for the Neches River Test Case after Hurricane Harvey 2017 landfall at /examples/mosquito_problem_spinup_wind.ipynb. All the required data is shared under the /data folder.
 
@@ -80,3 +65,5 @@ Liting Huang
 Graduate Student at UT Austin when this code was created
 GitHub: @largeseabass
 Email: litinghuang42@gmail.com
+
+[1] H. Hersbach, B. Bell, P. Berrisford, G. Biavati, A. Hor´anyi, J. Mu˜noz Sabater, J. Nicolas, C. Peubey, R. Radu, I. Rozum, D. Schepers, A. Simmons, C. Soci, D. Dee, and J-N. Th´epaut. Era5 hourly data on single levels from 1940 to present, 2023. Accessed on 18-02-2025
