@@ -58,6 +58,9 @@ You can find one example of a 4-day simulation for the Neches River Test Case af
 
 MIT License. See [`LICENSE`](LICENSE) for details.
 
+## Cite this work
+
+DOI 10.5281/zenodo.15360222
 
 ## Author
 
