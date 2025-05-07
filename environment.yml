@@ -1,4 +1,4 @@
-name: mofes-env
+name: fenicsx-env
 channels:
   - anaconda
   - conda-forge

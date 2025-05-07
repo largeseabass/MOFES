@@ -1,1 +1,2 @@
-from .mosquito_solver import Cartesian_MosquitoSolver, Problem_settings, Neches_problem_settings
+from .solver import Cartesian_MosquitoSolver
+from .settings import Neches_problem_settings, Problem_settings

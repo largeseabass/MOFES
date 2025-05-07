@@ -1,0 +1,2 @@
+[console_scripts]
+mofes-run = mofes.cli:main

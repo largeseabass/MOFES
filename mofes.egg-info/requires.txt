@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+matplotlib
+xarray
+netCDF4
+scikit-learn
+pyvista
+opencv-python
+ipyparallel
+tqdm
+loguru

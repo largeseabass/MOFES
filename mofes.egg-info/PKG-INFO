@@ -1,6 +1,45 @@
-# [MOFES](https://github.com/largeseabass/MOFES.git)
-Mosquito Finite Element Solver
+Metadata-Version: 2.4
+Name: mofes
+Version: 0.1.0
+Summary: MOFES: Mosquito Forecasting and Estimation Simulator using FEniCSx
+Home-page: https://github.com/largeseabass/MOFES
+Author: Liting Huang
+Author-email: litinghuang42@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/largeseabass/MOFES
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: xarray
+Requires-Dist: netCDF4
+Requires-Dist: scikit-learn
+Requires-Dist: pyvista
+Requires-Dist: opencv-python
+Requires-Dist: ipyparallel
+Requires-Dist: tqdm
+Requires-Dist: loguru
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
+# MOFES
+Mosquito Finite Element Solver
 
 MOFES is a high-performance PDE-based simulation package for modeling mosquito population dynamics post-tropical-cyclones under complex environmental influences such as wind and water stagnation. It is built using [FEniCSx](https://fenicsproject.org/) and is designed to support public health applications and environmental forecasting.
 
